@@ -1,0 +1,13 @@
+.idea/
+__pycache__/
+*.pyc
+.venv/
+.env
+*.json.key
+target/
+dbt_packages/
+logs/
+.terraform/
+*.tfstate*
+data/
+docs/
