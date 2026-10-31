@@ -11,3 +11,5 @@ logs/
 *.tfstate*
 data/
 docs/
+secrets/
+CLAUDE.md
