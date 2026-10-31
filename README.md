@@ -1,9 +1,10 @@
 # Retail Analytics Data Platform
 
-End-to-end batch data platform for a fictional toy retailer. Simulated source systems
-(CSV files, a REST API and a CDC feed) land in Google Cloud Storage, load into BigQuery,
-and are modelled with dbt into analytics-ready marts. Airflow 3 orchestrates the pipeline,
-Terraform provisions the infrastructure, and GitHub Actions runs CI/CD.
+An open, end-to-end batch data platform for a generic retail business, built for learning
+and free for anyone to use, study or adapt. Simulated source systems (CSV files, a REST API
+and a CDC feed) land in Google Cloud Storage, load into BigQuery, and are modelled with dbt
+into analytics-ready marts. Airflow 3 orchestrates the pipeline, Terraform provisions the
+infrastructure, and GitHub Actions runs CI/CD.
 
 **Status:** 🚧 In progress. See [Roadmap](#roadmap) and [Build log](#build-log).
 
