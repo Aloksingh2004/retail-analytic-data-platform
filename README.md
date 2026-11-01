@@ -69,7 +69,7 @@ tests/       # pytest suite
 
 - [ ] Week 1: Project scaffold, CI, data generator
   - [x] Python project with uv, ruff, pytest
-  - [ ] GitHub Actions CI and pre-commit
+  - [x] GitHub Actions CI and pre-commit
   - [ ] Deterministic data generator (customers CDC, products, orders, payments, inventory)
 - [ ] Week 2: Products API, GCP + Terraform, Airflow in Docker, ingestion modules
 - [ ] Week 3: Ingest DAGs, dbt staging, SCD2 dimensions, order facts
@@ -87,4 +87,5 @@ _Runbooks for backfills, failure recovery and adding new sources will be added h
 
 | Date | Progress |
 |---|---|
-| 2026-11-01 | Scaffolded the Python project: uv, ruff, pytest, Makefile, package layout |
+| 2026-10-31 | Scaffolded the Python project: uv, ruff, pytest, Makefile, package layout |
+| 2026-11-01 | Added GitHub Actions CI (lint + tests), pre-commit hooks and MIT licence |
